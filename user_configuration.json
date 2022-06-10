@@ -1,0 +1,47 @@
+{
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio": "pipewire",
+    "config_version": "2.5.0",
+    "debug": false,
+    "desktop-environment": "kde",
+    "gfx_driver": "All open-source (default)",
+    "harddrives": [],
+    "hostname": "jessica",
+    "kernels": [
+        "linux-lts"
+    ],
+    "mirror-region": {
+        "Brazil": {
+            "http://archlinux.c3sl.ufpr.br/$repo/os/$arch": true,
+            "http://archlinux.pop-es.rnp.br/$repo/os/$arch": true,
+            "http://br.mirror.archlinux-br.org/$repo/os/$arch": true,
+            "http://linorg.usp.br/archlinux/$repo/os/$arch": true,
+            "http://mirror.ufscar.br/archlinux/$repo/os/$arch": true
+        }
+    },
+    "mount_point": null,
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "packages": [
+        "ansible",
+        "python",
+        "git",
+        "vim"
+    ],
+    "plugin": null,
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "sys-language": "en_US",
+    "timezone": "America/Sao_Paulo",
+    "version": "2.5.0"
+}
